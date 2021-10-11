@@ -58,7 +58,7 @@ const SideDock = ({ followers, following, dispatch, user }) => {
   displayList = displayList.filter(instance => typeof instance != 'undefined')
 
   return (
-    <div className="sideDock-container">
+    <div  className="sideDock-container">
       <div className="sideDock">
       {
         unfollowCardVis[0] && 
